@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-bottom: solid 1px #778DA9;
+}
+
+.left {
+    width: 30%;
+}
+
+.right{
+    width: 70%;
+    display: flex;
+}
+
+a:link {
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.linkSelected {
+    font-weight: bold;
+}
+
+a:hover,
+a:active {
+    background-color: #415A77;
+    color: #E0E1DD;
+}
